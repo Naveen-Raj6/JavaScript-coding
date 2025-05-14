@@ -112,7 +112,84 @@
 
 // let x = 10;
 // let y = 10n;
-// console.log(x + y); // ❌ TypeError
+// console.log(x + y); // TypeError
+
+
+// Non-primitive datatype:Unlike primitive types (which hold single values), non-primitive types can store multiple values and are reference-based.
+// That means variables hold a reference (address in memory) to the data, not the data itself.
+
+// 1. Object:Used to store multiple key-value pairs. It is the most commonly used non-primitive type.
+// Syntax:
+// let obj = {
+//     key1: value1,
+//     key2: value2
+// };
+// Example:
+// let person = {
+//     name: "Naveen",
+//     age: 22,
+//     isStudent: true
+// };
+
+// console.log(person.name);       // "Naveen"
+// console.log(typeof person);     // "object"
+
+// 2. Array:Used to store ordered collections (lists) of elements (can be numbers, strings, objects, etc.).
+// Syntax:
+// let arr = [value1, value2, value3];
+// Example:
+// let colors = ["red", "green", "blue"];
+// console.log(colors[0]);        // "red"
+// console.log(colors.length);   // 3
+// console.log(typeof colors);   // "object" (Arrays are special objects)
+
+// Tip: Use Array.isArray() to check for arrays:
+// console.log(Array.isArray(colors)); // true
+
+// 3. Function:Used to define reusable blocks of code that perform specific tasks
+// Syntax:
+// function functionName() {
+//     // code
+// }
+// functionName() // call the function to get executed or to invoke it
+// Example:
+// function greet() {
+//     console.log("Hello!");
+// }
+// greet();  // Output: Hello!
+// console.log(typeof greet); // "function"
+
+// Note: Functions are actually objects, so typeof returns "function"(a special object).
+
+// 4. Date, RegExp, Map, Set, etc
+
+// These are built-in objects in JavaScript:
+// // Date — used for handling dates:
+// let today = new Date();
+// console.log(today.toDateString());  // e.g., "Tue May 14 2025"
+
+// RegExp — for pattern matching(regular expressions):
+// let pattern = /hello/i;
+// console.log(pattern.test("Hello World")); // true
+
+// Map — key - value pairs where keys can be any type:
+// let map = new Map();
+// map.set("name", "Naveen");
+// console.log(map.get("name")); // "Naveen"
+
+// Set — collection of unique values:
+// let set = new Set([1, 2, 2, 3]);
+// console.log(set); // Set {1, 2, 3}
+
+
+
+
+
+
+
+
+
+
 
 
 
