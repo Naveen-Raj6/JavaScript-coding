@@ -11,6 +11,10 @@
 
 // 1. var keyword
 // The var keyword is used to declare a variable in JavaScript.
+// var is global object, which means that the variable is accessible from anywhere in the code.
+// var is window object, which means that the variable is accessible from the global scope.
+// var global scope, which means that the variable is accessible from the global scope.
+// var is short for "variable", which means that the value of the variable can change over time.
 // The var keyword was used in all JavaScript code from 1995 to 2015.
 
 // Characteristics of var
@@ -38,6 +42,8 @@
 
 // 2. let keyword
 // The let keyword is used to declare a block-scoped variable in JavaScript.
+// the let is block-scoped, which means that the variable is only accessible within the block in which it is declared.
+// the let also function-scoped, which means that the variable is only accessible within the function in which it is declared.
 // The let keyword was introduced in 2015 in ECMAScript 6 (ES6) version.
 
 // Characteristics of let
@@ -56,6 +62,8 @@
 // 3. const keyword
 // The const keyword is used to declare a block-scoped variable in JavaScript that cannot be reassigned.
 // The const keyword was introduced in 2015 in ECMAScript 6 (ES6) version.
+// the const block-scoped, which means that the variable is only accessible within the block in which it is declared.
+// the const also function-scoped, which means that the variable is only accessible within the function in which it is declared.
 // const is short for "constant", which means that the value of the variable cannot be changed after it is assigned.
 
 // Characteristics of const
