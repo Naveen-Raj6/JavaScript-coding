@@ -175,7 +175,7 @@
 //console.log(j); // Output: 20
 
 
-// Ternary Operator
+// 6. Ternary Operator
 // The ternary operator is a shorthand way to write an if-else statement. It takes three operands and returns one of two values based on a condition.
 
 // let k = (a > b) ? a : b;
@@ -197,7 +197,7 @@
 // console.log(p); // Output: 5
 
 
-// Unary Operators
+// 7. Unary Operators
 // Unary operators are operators that operate on a single operand. They can be used to perform operations such as negation, incrementing, and decrementing.
 
 // The unary operators are as follows:
@@ -219,7 +219,7 @@
 //console.log(v); // Output: 5
 
 
-// Type Operators
+// 8. Type Operators
 // Type operators are used to determine the type of a value or variable. They can be used to check if a value is a number, string, boolean, or object.
 
 // The type operators are as follows:
@@ -250,7 +250,7 @@
 //console.log(a8); // Output: "number"
 
 
-// Spread Operator
+// 9. Spread Operator
 // The spread operator is used to expand an iterable (such as an array or object) into individual elements.
 // It is represented by three dots (...).
 // The spread operator is commonly used in array and object destructuring, as well as in function calls to pass multiple arguments.
@@ -269,7 +269,7 @@
 // console.log(obj3); // Output: { a: 1, b: 2, c: 3, d: 4 }
 
 
-// Rest Operator
+// 10. Rest Operator
 // The rest operator is used to collect multiple arguments into a single array.
 // It is represented by three dots (...).
 // The rest operator is commonly used in function parameters to collect multiple arguments into a single array.
@@ -290,7 +290,7 @@
 // The rest operator can also be used in function parameters to collect multiple arguments into a single array.
 
 
-// delete operator
+// 11 .delete operator
 // The delete operator is used to remove a property from an object or an element from an array.
 // It is represented by the delete keyword.
 // The delete operator is commonly used to remove properties from objects or elements from arrays.
@@ -305,7 +305,7 @@
 // console.log(arr); // Output: [1, 2, <1 empty item>, 4, 5]
 
 
-// instanceof operator
+// 12. instanceof operator
 // The instanceof operator is used to check if an object is an instance of a specific constructor function or class.
 // It is represented by the instanceof keyword.
 // The instanceof operator is commonly used to check if an object is an instance of a specific constructor function or class.
@@ -322,7 +322,7 @@
 // console.log(obj instanceof Boolean); // Output: false
 
 
-//In operator
+// 13. In operator
 // The in operator is used to check if a property exists in an object or an array.
 // It is represented by the in keyword.
 
@@ -336,7 +336,7 @@
 // console.log(5 in arr); // Output: false
 
 
-//comma operator
+// 14. comma operator
 // The comma operator is used to evaluate multiple expressions and return the value of the last expression.
 // It is represented by a comma (,).
 // The comma operator is commonly used in for loops and function calls to evaluate multiple expressions.
@@ -349,7 +349,7 @@
 // console.log(b); // Output: 7
 
 
-//void operator
+// 15. void operator
 // The void operator is used to evaluate an expression and return undefined.
 // It is represented by the void keyword.
 // The void operator is commonly used to evaluate an expression without returning a value.
@@ -363,7 +363,7 @@
 // console.log(b); // Output: undefined
 
 
-//with operator
+// 16. with operator
 // The with operator is used to extend the scope chain for a block of code.
 // It is represented by the with keyword.
 // The with operator is commonly used to simplify code by allowing you to access properties of an object without having to repeat the object name.
@@ -374,7 +374,7 @@
 // let obj = { a: 1, b: 2, c: 3 };
 // with (obj) {
 //   console.log(a); // Output: 1
-//   console.log(b); // Output: 2   
+//   console.log(b); // Output: 2
 //   console.log(c); // Output: 3
 // }
 // console.log(a); // Output: ReferenceError: a is not defined
@@ -383,7 +383,7 @@
 // The with operator is not recommended for use in modern JavaScript programming, as it can lead to performance issues and code readability concerns. It is generally better to use explicit object references instead of the with operator.
 
 
-// optional chaining operator
+// 17. optional chaining operator
 // The optional chaining operator is used to access properties of an object without having to check if the object is null or undefined.
 // It is represented by the ?. operator.
 // The optional chaining operator is commonly used to simplify code by allowing you to access properties of an object without having to check if the object is null or undefined.
@@ -397,7 +397,7 @@
 // console.log(obj?.a?.d?.c); // Output: undefined
 
 
-// optional chaining operator with function calls
+// 18. optional chaining operator with function calls
 // The optional chaining operator can also be used to call functions without having to check if the function is null or undefined.
 // It is represented by the ?. operator.
 // The optional chaining operator is commonly used to simplify code by allowing you to call functions without having to check if the function is null or undefined.
